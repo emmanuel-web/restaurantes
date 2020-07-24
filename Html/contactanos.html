@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icont" type="imagen/png" href="../img/shop.png">
+    <title>contactanos</title>
+    
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/estilo.css">
+    <script src="../js/jquery-1.11.2.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <a class="navbar-brand" href="#">EL Campo</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+            <li  class="nav-item">
+                <a class="nav-link" href="../index.html">Inicio</a>
+            </li>
+            <li  class="nav-item">
+                <a class="nav-link" href="bueno.html">¿por que es bueno?</a>
+            </li>
+            <li  class="nav-item">
+                <a class="nav-link" href="menu.html">Menu</a>
+            </li>
+            <li  class="nav-item">
+                <a class="nav-link" href="Nuestra.html">¿donde nos puedes encontrar?</a>
+            </li>
+            <li  class="nav-item">
+                <a class="nav-link" href="contactanos.html">Contactanos</a>
+            </li>
+            <li  class="nav-item">
+                <a class="nav-link" href="chat.html">chat en vivo</a>
+            </li>
+            <li  class="nav-item">
+                <a class="nav-link"  href="factura.html">facturacion</a>
+            </li>
+            <li  class="nav-item">
+                <a class="nav-link" href="catalogo.html">catalogo</a>
+            </li>
+         </ul>
+        </div>
+    </nav>
+<div class="container">
+    <div class="row">
+        <div class=" bg-primary  col-sm-12 col-md-12 col-lg-12">
+            <img src="../img/6.png"width="400"  >
+        </div>
+    </div>
+    <div class="row">
+
+    <div class="  col-sm-6 col-md-6 col-lg-6">
+    <img src="../img/7.png"width="350" height="340" >
+    </div>
+    <div class="text-danger  col-sm-3 col-md-3 col-lg-3">
+        <label>Nombre</label> <br>
+                    <input type="text" id="NOMBRE"><br>
+                    <label >Apellido:</label><br>
+                    <input type="text" id="Apellido"><br>
+                    <label >Nacionalidad:</label><br>
+                    <select id="pais">
+                        <option value="Colombia">Colombia</option> 
+                        <option value="Antigua y Barbuda" >Antigua y Barbuda</option>
+                        <option value="Aruba">Aruba</option>
+                        <option value="Bahamas">Bahamas</option> 
+                        <option value="Argentina" >Argentina</option>
+                        <option value="Ecuador">Ecuador</option>
+                        <option value="Perú">Perú</option> 
+                        <option value="Dominica" >Dominica</option>
+                        <option value="Uruguay">Uruguay</option>
+                        <option value="Venezuela">Venezuela</option> 
+                        <option value="México" >México</option>
+                        <option value="Costa Rica">Costa Rica</option>
+                        <option value="Jamaica">Jamaica</option> 
+                        <option value="Puerto Rico" >Puerto Rico</option>
+                        
+                      </select><br>
+                      <label>edad</label><br>
+                      <input type="number" id="edad" min="10" max="99"required="required"><br>
+                     <label >Sexo:</label><br>
+                     <input type="radio" id="sexo" value="hombre" /> Hombre
+                     <input type="radio" id="sexo" value="mujer" /> Mujer <br>
+                     <label >fecha de nacimient:</label><br>
+                     <input type="date" id="naci"><br>
+                     <label >estado civil:</label><br>
+                    <input type="radio" id="civil" value="Casado(a)" /> Casado(a)
+                    <input type="radio" id="civil" value="soltero(a)" /> soltero(a) <br>
+                     
+
+    </div>
+    <div class=" text-danger col-sm-3 col-md-3 col-lg-3">
+        
+                    <label >Correo electronico:</label><br>
+                    <input type="email" id="direccionemail" placeholder="Ej.: usuario@servidor.com" ><br>
+                    <label >telefono fijo</label><br>
+                    <input type="tel" id="telefono"><br>
+                    <label >celular</label><br>
+                    <input type="tel" id="celular"><br>
+                    <label >Estrato:</label><br>
+                    <input type="number" id="estrato" min="1" max="7"><br>
+                    <label>No. Identidad</label><br>
+                    <input type="tel"id="Identidad"><br>
+                    <label>direccion:</label><br>
+                    <input type="tel" id="Direccion"><br>
+                    <label>religion:</label><br>
+                    <select id="religion" >
+                        <option value="Cristianismo">Cristianismo</option> 
+                        <option value=" Islam" > Islam </option>
+                        <option value="Agnosticismo">Agnosticismo</option>
+                        <option value="Hinduismo">Hinduismo</option> 
+                        <option value="Budismo">Budismo </option>
+                        <option value="Judaísmo">Judaísmo</option> 
+                        <option value="catolicismo" >catolicismo</option>
+                    </select> <br>
+                    <label >tipo de sangre</label><br>
+                    <input type="text"id="sangre"><br>
+
+  </div>
+
+    </div>
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 justify-content-center">
+        <div class="col mb-3 mb-sm-0 ">
+           <input type="submit" id="botonregistara " class="btn btn-block btn-lg btn-outline-success">
+        </div>
+    </div>
+    <div class="contenesorr">
+        <table border="1" id="tblaRegistro">
+            <thead>
+                <tr>
+                    <th>nombre</th>
+                    <th>Apellido</th>
+                    <th>Nacionalidad</th>
+                    <th>edad</th>
+                    <th>sexo</th>
+                    <th>Fecha de nacimiento</th>
+                    <th>estado civil</th>
+                    <th>correo electronico</th>
+                    <th>telefono fijo</th>
+                    <th>celular</th>
+                    <th>estrato</th>
+                    <th>No. Identidad</th>
+                    <th>direccion</th>
+                    <th>religion</th>
+                    <th>tipo de sangre</th>
+                    <th>seleccion</th>
+                 </tr>
+            </thead>
+            <tbody>
+                
+            </tbody>
+        </table>
+    </div>
+        <script src="../js/tablaRegistrocontac.js"></script>
+        <script src="../js/guardar_registro.js"></script>
+</div>
+
+
+
+      
+    
+   
+    
+</body>
+</html>
